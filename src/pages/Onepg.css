@@ -391,6 +391,9 @@ margin:40px auto;
     
 }
 
+
+
+
 /* media quires*/
  /* small mobile*/
  @media (min-width: 320px) and (max-width: 480px){
@@ -716,7 +719,7 @@ height: 250px;
     
 }}
 /* medium  mobile*/
- @media (min-width: 375px) and (max-width: 480px){
+ /*@media (min-width: 375px) and (max-width: 480px){
 .about-section{
     display: flex;
     align-items: center;

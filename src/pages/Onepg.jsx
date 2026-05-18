@@ -80,6 +80,7 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
          <div className='card'>
         <video controls className="project-video"><source src= "/assets/universityprojects/Team 18 promo video of Yarah Consultants (group-work).mp4"/></video>
         </div>
+        
          
       <h2 className='subtitle'>Data Visualization</h2>
         <div className='card'>
