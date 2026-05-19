@@ -64,6 +64,14 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
         
          <video controls className="project-video"><source src= "/assets/universityprojects/walkthrough of multiple app (Diaries to Desire).mp4"/></video>
         </div>
+         <h2 className='subtitle'> Digital Marking for LyfBite</h2>
+        <div className='card'>
+        <video controls className="project-video"><source src= "/assets/universityprojects/advertisment.mp4"/></video>
+        </div>
+         <br/>
+       <div className='card'>
+        <video controls className="project-video"><source src= "/assets/universityprojects/promoting our website.mp4"/></video>
+        </div>
        
         <h2 className='subtitle'>Websites</h2>
         <div className='card'>
@@ -74,7 +82,17 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
         <video controls className="project-video"><source src= "/assets/universityprojects/Angel Sara Mathew walkthrough video.mp4"/></video>
         <a href="https://wild-soar.vercel.app/" target="_blank" rel="noopener noreferrer"  title="Click to visit the website" className='web-site'>Visit Website</a>
         </div>
-          
+
+        <h2 className='subtitle'>Arduino</h2>
+        <div className='card'>
+        <video controls className="project-video"><source src= "/assets/universityprojects/experiment 3.mp4"/></video>
+        </div>
+        <br/>
+
+        <div className='card'>
+        <video controls className="project-video"><source src= "/assets/universityprojects/experiment 4.mp4"/></video>
+       </div>
+
         <h2 className='subtitle'> For Yarah Consultants </h2>
         <h3 className='subtitle2' > Promo video</h3>
          <div className='card'>
@@ -247,6 +265,9 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
          <img src="/assets/certificates/Screenshot 2026-01-15 190428.png" alt="Certificate"/>
          <img src="/assets/certificates/Storytelling for leaders.png" alt="Certificate"/>
          <img src="/assets/certificates/Figma for UX Design.png" alt="Certificate"/>
+        <img src="/assets/certificates/Learning Arduino Foundation.png" alt="Certificate"/>
+        <img src="/assets/certificates/digital marketing foundation.png" alt="Certificate"/>
+
          </div>
 </section>
 
