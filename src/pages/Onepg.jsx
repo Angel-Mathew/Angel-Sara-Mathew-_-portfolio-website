@@ -64,7 +64,7 @@ Bsc Creative Computing graduate. Passionate about making videos and websites and
         
          <video controls className="project-video"><source src= "/assets/universityprojects/walkthrough of multiple app (Diaries to Desire).mp4"/></video>
         </div>
-         <h2 className='subtitle'> Digital Marking for LyfBite</h2>
+         <h2 className='subtitle'> Digital Marketing for LyfBite</h2>
         <div className='card'>
         <video controls className="project-video"><source src= "/assets/universityprojects/advertisment.mp4"/></video>
         </div>
