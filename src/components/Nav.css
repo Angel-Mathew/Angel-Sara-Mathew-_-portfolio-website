@@ -3,22 +3,20 @@
    background-size: 100% 100%;
    background-repeat: no-repeat;
    background-position: center;
-   background-color: #a20659;
+   background-color: #53022d;
    display: flex;
    align-items: center;
    justify-content: space-between;
-   width: 100%;
+   width: 95%;
    height: 70px;
-   padding: 0 40px;
-
+   padding: 1px 40px;
   border-bottom-right-radius: 20px;
-  
  
 }
 
 .logo {
-    height: 45px;
-    margin-left: 20px;
+    height: 50px;
+    margin-left: 40px;
     margin-top: 5px;
 }
 
@@ -39,62 +37,51 @@
     font-style: italic;
 }
 /*mobile*/
-@media (max-width: 480px) {
+@media (max-width:760px) {
     .navbar {
         flex-direction: column;
         height: auto;
-        padding: 10px 15px;
-    }
-
-    .logo {
-        height: 30px;
-        margin: 5px 0;
-    }
-
-    .navbar-links {
-        flex-direction: column;
-        gap: 10px;
-        margin: 10px 0 0 0;
-    }
-
-    .navbar-links a {
-        font-size: 12px;
-    }
-}
-@media (min-width: 481px) and (max-width: 1024px) {
-
-    .navbar {
-        padding: 0 20px;
+        padding: 10px 20px;
+        width:110%;
     }
 
     .logo {
         height: 40px;
+        
     }
 
     .navbar-links {
-        gap: 25px;
+        
+       display: flex;
+    list-style: none;
+    gap: 10px;
+
+    margin-right: 70px;
+    align-items: center;
     }
 
     .navbar-links a {
-        font-size: 14px;
+        
+        font-size: 9px;
+    }
+}
+@media(min-width: 766px) and (max-width:768px) {
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 20px;
+        width:100%;
     }
 }
 /*laptop */
-@media (min-width: 1025px) and (max-width: 1439px) {
+@media(min-width: 769px) and (max-width:1024px) {
 
-    .navbar {
-        padding: 0 35px;
+   .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 20px;
+        width:100%;
     }
 
-    .navbar-links {
-        gap: 40px;
-    }
-}
-/*larfe screens*/
-@media (min-width: 1440px) {
-
-    .navbar {
-        max-width: 1400px;
-        margin: auto;
-    }
 }
